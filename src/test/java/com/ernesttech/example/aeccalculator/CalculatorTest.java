@@ -30,4 +30,9 @@ public class CalculatorTest {
         assertThat(calculator.sum(0, 1), is(1));
     }
 
+    @Test
+    public void shouldSubtract5From10Equal5() {
+        assertThat(calculator.subtract(10, 5), is(5));
+    }
+
 }
